@@ -19,7 +19,13 @@ Transfer learning was applied in order to classify chest X-ray images into **NOR
 ## Results
 The ConvVAE-based approach achieved a test ROC-AUC of approximately **0.69–0.70**, showing moderate but meaningful discrimination between NORMAL and PNEUMONIA cases.
 
-The ResNet transfer learning model was implemented as a comparison baseline against the reconstruction-based anomaly detection approach.
+The ResNet transfer learning model, used as a supervised comparison baseline, achieved:
+
+- **Test ROC-AUC: 0.9596**
+
+- **Test Accuracy: 0.82**
+
+This comparison shows that the supervised transfer learning approach outperformed the reconstruction-based anomaly detection model on this dataset.
 
 ## Tools
 - Python
