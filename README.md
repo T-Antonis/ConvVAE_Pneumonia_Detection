@@ -206,12 +206,3 @@ notebooks/Bio_Data_final.ipynb
 
 The notebook contains the exploratory development process, while the `src/bio_data/` folder contains the refactored and organized project code.
 
-## Notes from Refactoring
-
-- Removed Google Colab / Google Drive-specific paths.
-- Replaced hardcoded paths with project-relative paths.
-- Split the notebook code into reusable Python modules and scripts.
-- Preserved the original notebook for reference.
-- Added `.gitignore` so datasets, outputs, virtual environments and model checkpoints are not committed accidentally.
-- Added `requirements.txt` and `pyproject.toml` for easier setup.
-- Added `.gitkeep` files so empty folders such as `data/`, `models/`, and `outputs/` appear on GitHub.
