@@ -196,13 +196,3 @@ The checkpoint is saved to:
 models/resnet18_best.pth
 ```
 
-## Original Notebook
-
-The original notebook is preserved in:
-
-```text
-notebooks/Bio_Data_final.ipynb
-```
-
-The notebook contains the exploratory development process, while the `src/bio_data/` folder contains the refactored and organized project code.
-
